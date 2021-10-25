@@ -4,6 +4,11 @@ teste segundo branch
 
 testee
 
+<<<<<<< HEAD
 essa foi colocada na aula 2
 outra linha colocada
+=======
+essa foi colocada na aula 1
+outra linhagitgit 
+>>>>>>> aula1
 esse é um teste
