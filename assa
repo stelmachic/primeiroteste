@@ -3,6 +3,11 @@ sasa
 linha 3
 
 nova linha
+<<<<<<< HEAD
 linha 
 uma linha aqui
+=======
+linha 6
+linha 7
+>>>>>>> cc0351e (LInha 7)
 linha8
