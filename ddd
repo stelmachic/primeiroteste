@@ -1,0 +1,73 @@
+# BackEnd
+
+BackEnd desenvolvido em C#, com tecnologias como EntityFrameWork
+
+# FrontEnd
+
+FrontEnd desenvolvido em Angular.
+
+# Banco de dados
+
+Banco de dados desenvolvido em MySQL.
+
+# Backend
+
+## Requisitos Funcionais
+
+RF01 - O Sistema deverá ter seu backend desenvolvido em C#
+
+RF02 -  O sistema deve conseguir buscar no banco de dados os dados necessarios
+
+RF03 - Deve ser necessário o token jwt para fazer requisições ao backend
+
+RF04 - As regras de negocio devem estar inseridas no backend
+
+## Requisitos Não Funcionais
+
+RNF01 - O backend deverá utilizar Entity Framework
+
+RNF01.01 - Utilizará o Entity para inserir no banco de dados
+
+RNF01.02 - Utilizará o Entity para buscar no banco de dados
+
+RNF01.03 - Utilizará o Entity para atualizar campos no banco de dados
+
+RNF01.04 - Utilizará o Entity para deletar do banco de dados
+
+RNF02 - Deverá ser dividido em 3 camadas, Model, Controller e DTO
+
+RNF03 - O tempo de resposta da API deve ser menor que 10 segundos.
+
+RNF04 - O backend deverá ser hospedado em um servidor.
+
+RNF05 - A base de dados deve ser acessada apenas por usuários autenticados.
+
+RNF06 - O backend deve ter uma programação facil de entender por outro programador.
+
+# FrontEnd
+
+## Requisitos Funcionais
+
+RF01 - O sistema deve ter uma pagina de cadastro
+
+RF01.01- A Pagina de cadastro deve ter os campos usuario, email, senha, confirmar senha e data de nascimento, numero
+
+RF01.02 - A pagina de cadastro deverá ter um botão para mostrar a senha que estava escondida
+
+RF01.03 - A pagina de cadastro deverá ter um botão para se cadastrar.
+
+RF01.04  - O usuario não deverá conseguir se cadastrar caso seja menor de 15 anos.
+
+RF02 - O usuário deverá receber um e-mail de confirmação quando realizar o cadastro.
+
+RF03 - O sistema deverá ter uma pagina de login
+
+RF03.01 - A pagina de login terá os campos email/usuario e senha.
+
+RF03.02 - A pagina de login terá um botão para realizar o login
+
+RF03.03 - A pagina de login terá um botão de esqueci minha senha caso o usuario tenha esquecido a senha
+
+RF03.03.01 - O usuario preencher o email da conta que esqueceu a senha para receber um email com um link de mudança de senha.
+
+RF03.04 - A pagina de login deverá ter um botão para mostrar a senha caso o usuario clique.
